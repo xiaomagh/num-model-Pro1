@@ -22,8 +22,8 @@ def taska(r = 0.25, alpha = 0.125, b = 2.5, miu = 2./3., N = 121, dt = 0.5, \
     l3 = np.zeros(N-1)
     l4 = np.zeros(N-1)
 
-    T[0] = 1.125
-    h[0] = 0.
+    T[0] = 1.125/7.5
+    h[0] = 0./150
     t[0] = 0.
 
     for i in range(1,N):
